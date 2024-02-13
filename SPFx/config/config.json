@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "image-creator-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/imageCreator/ImageCreatorWebPart.js",
+          "manifest": "./src/webparts/imageCreator/ImageCreatorWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ImageCreatorWebPartStrings": "lib/webparts/imageCreator/loc/{locale}.js"
+  }
+}
